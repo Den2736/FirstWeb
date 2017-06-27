@@ -79,6 +79,11 @@
             </asp:ContentPlaceHolder>
             <hr />
             <footer>
+                <asp:Menu ID="NavMenu" runat="server">
+                    <Items>
+                        <asp:MenuItem NavigateUrl="~/Account/Admin.aspx" Text="Администраторам" Value="Администраторам"></asp:MenuItem>
+                    </Items>
+                </asp:Menu>
                 <p>&copy; <%: DateTime.Now.Year %> - первый сайт Дениса Бабенко на ASP.NET</p>
             </footer>
         </div>
