@@ -50,7 +50,7 @@ public partial class _Default : Page
             }
             catch(IndexOutOfRangeException)
             {
-                role = "Тип записи еще не был присвоен администратором";
+                role = "Тип учетной записи еще не был присвоен администратором";
             }
             roleCell.Controls.Add(new LiteralControl(role));
             row.Cells.Add(roleCell);
